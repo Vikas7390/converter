@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+.container h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-col-1 {
+    flex-basis: 30%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    height: 550px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+    align-items: center;
+}
+
+.about-col-2 h3 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    float: left;
+    margin: 20px auto;
+    margin-left: 100px;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.text {
+    color: white;
+
+}
+.text{
+    clear: both;
+    text-align: center;
+}
+.equal{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.container input[type = "text"]{
+    font-size: 20px;
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+.container input[type = "text"]:hover{
+    width: 220px;
+    color: red;
+}
+.text select{
+    padding: 10px;
+    border: 2px;
+    font-size: 20px;
+    border-radius: 9px;
+}
